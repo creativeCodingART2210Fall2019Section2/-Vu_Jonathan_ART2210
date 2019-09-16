@@ -1,9 +1,6 @@
-## This is my README sample
+## Abstract Self Portrait
 
-sample
-sample
-sample
 
-[Testing Page Link](https://jvu11.github.io/Vu_Jonathan_ART2210/TestCoding/p5/Portriat.html)
+[Project 1](https://jvu11.github.io/Vu_Jonathan_ART2210/TestCoding/p5/Portriat.html)
 
 
