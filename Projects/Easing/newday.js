@@ -33,15 +33,15 @@ function draw(){
     let s2 = map(mouseY,0,width,0,155,true);
     let s3 = map(mouseY,0,width,0,255,true);
     fill(s1,s2,s3);
-    ellipse(x-125,y-5,30,30);
+    ellipse(x-25,y-5,30,30);
 
 
     let e1 = map(mouseX,0,width,0,255,true);
     let e2 = map(mouseY,0,width,0,255,true);
     let e3 = map(mouseY,0,width,0,155,true);
     fill(e1,e2,e3);
-    ellipse(x-60,y-80,25,25);
-    ellipse(x+100,y+99,25,25);
+    ellipse(x-10,y-50,25,25);
+    ellipse(x+30,y+50,25,25);
     
 
     
