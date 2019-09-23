@@ -12,12 +12,17 @@
 
 ## *Closeness*
 ## Quibe
+@quibe
 ![](https://github.com/jvu11/Vu_Jonathan_ART2210/raw/master/Image/Close_Quibe.jpg)
 
 ## *Picasso - Single* Album Art
 ## Hopsin
 ![](https://github.com/jvu11/Vu_Jonathan_ART2210/raw/master/Image/Picasso_Hopsin.jpg)
 
-## Gesture Drawing - @grizandnorm
+## *Gesture Drawing* 
 ## Griz and Norm Lemay
+@grizandnorm
 ![](https://github.com/jvu11/Vu_Jonathan_ART2210/blob/master/Image/GrizNormGesture.jpg)
+
+## Artist Statement
+
