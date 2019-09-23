@@ -1,8 +1,6 @@
-## Abstract Self Portrait
-
-
-
 <div align=center>
+### Abstract Self Portrait
+
 
 ## *Her* Album Art
 ## BTS
