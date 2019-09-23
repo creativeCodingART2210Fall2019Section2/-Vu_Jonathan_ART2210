@@ -1,7 +1,7 @@
 ## Abstract Self Portrait
 
 
-[Project 1](https://jvu11.github.io/Vu_Jonathan_ART2210/Projects/Portrait/Portriat.html)
+[Vu_Jonathan_ART2210_Self-portrait_Fall2019](https://jvu11.github.io/Vu_Jonathan_ART2210/Projects/Portrait/Portriat.html)
 
 
 
