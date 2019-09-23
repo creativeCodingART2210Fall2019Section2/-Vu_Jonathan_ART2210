@@ -4,7 +4,6 @@
 [Vu_Jonathan_ART2210_Self-portrait_Fall2019](https://jvu11.github.io/Vu_Jonathan_ART2210/Projects/Portrait/Portriat.html)
 
 
-
 <div align=center>
 
 ## *Her* Album Art
