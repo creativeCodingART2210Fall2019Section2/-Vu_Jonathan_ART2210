@@ -1,8 +1,10 @@
+var texty = "WHERE DO WE GO FROM HERE?";
+
 function setup(){
  
    //createCanvas(2000,1000);
    createCanvas(windowWidth,windowHeight);
-    
+   frameRate(10);
 
 }
 
@@ -20,13 +22,10 @@ function draw(){
     let x3 = map(mouseY,0,width,0,255,true);
     stroke(color(x1,x2,x3));
 
-    fill(225);
-    textSize(100);
-    text('J',920,500);
-    text('V',995,500);
-    strokeWeight(3);
-    line(983,500,983,400);// divider  
-    line(1013,400,953,400); //t top
+    
+    //strokeWeight(3);
+   // line(1073,630,1073,520);// divider  
+    //line(1000,520,1152,520); //t top
     
 
 
@@ -38,7 +37,7 @@ function draw(){
     curve(-150,1500, 280,320, 400,370, 900,70);//cheek
     curve(900,980, 380,435, 280,320, 400,400); //jaw
     curve(100,100,  380,435, 600,500, 500,100); //jawline
-    curve(500,800, 600,500, 650,250, 200,100); //cheekline
+    curve(500,800, 600,500, 650,250, 200,100); //cheekline  ***
     curve(800,200, 590,250, 650,250, 900,76); //righteyebot
     curve(100,300, 590,250, 670,220, 800,76); //righteyetop
     curve(1500,340, 670,220, 530,330, 200,80); // nose
@@ -75,13 +74,85 @@ function draw(){
     curve(100,-400, 340,480, 380,640, 800,620); //neckleftvalue
     curve(700,990, 340,480, 470,550, -100,460);//neckvaluetop
     curve(-110,-800, 470,550, 400,650, 820,2300); //neckvaluebot
+
+
+    stroke(color(225));
+    strokeWeight(3);
+    curve(3110,-1100, 1070,700, 900,1320, 2100,1100);//boxbotmid
+    curve(1100,300, 979,690, 969,580, 2100,100);//boxlefbot
+    curve(500,1700, 1030,490, 1060,400, 2100,900);//boxlefttop
+
+    fill(225,225,225,190);
+    curve(-1400,-500, 1060,400, 900,200, 1100,910);//innerpetalright
+    curve(600,-1100, 900,200, 1040,370, 1100,-100);//654,380 innerpetalleft
+    curve(710,600, 1040,370, 870,260, 2100,-1100);//petalleftbot
+    curve(1200,-400, 870,260, 1040,320, 3100,2100);//petaltopleft
+    curve(1300,900, 1040,320, 1150,290, 10,1100);//petaltopmid
+    curve(2000,-300, 1150,290, 1038,470, 800,300);//petalbotright
     
 
-    curve(-800,900, 900,500, 983,500, -400,-580);//t under
+
+    textSize(35);
+    //text(texty, 0,0);
+    translate(-30,260);
+    textAlign(CENTER,CENTER);
+    var middle = texty.length / 1;
+    var left = middle - ((mouseX/ width) * middle);
+    var right = middle + ((mouseX / width) * middle);
+    text(texty.substring(left, right+1),width/2, height/2);
+
+
+    /*curve(400,-890, 830,250, 740,250, 1000,1450);//w
+    curve(200,-900, 830,250, 930,270, 1000,1490);//wh
+    line(930,270,936,310);//h
+    curve(900,900, 936,310, 955,310, 880,100);//h
+    curve(700,100, 955,310, 970,300, 700,900);//e
+    curve(1500,-700, 970,300, 1030,290, 500,1100);//er
+    line(1030,290,1065,285);//r
+    curve(1500,-500, 1065,285, 1090,310, 100,699);//re
+    curve(1700,-600, 1090,310, 1140,320,-700,10);//e
+
+    curve(1000,-11, 794,410, 788,360, 1200,300);//d
+    curve(1000,-10, 800,300, 820,430, 900,100);//d
+    curve(100,100, 820,430, 830,429, 1000,1100);//o
+
+    curve(1300,-690, 935,370, 970,410, 1000,900);//w
+    curve(1000,-390, 970,410, 990,435, 1000,900);//w
+    curve(700,100, 990,435, 1010,410, 500,1110);//e
+    curve(1350,-100, 1010,410, 1040,430, -100,100);//e
     
 
+    
+    textAlign(CENTER);
+    let h = 'WHERE DO WE GO FROM HERE?';
+    let e = 'WHERE DO WE GO FROM HERE?';
+    
+    textSize(75);
+    textStyle(NORMAL);
+    //fill(random(190),random(225),random(190));
+    //textFont('COURIER');
+    text(h,800,70,500,800);
+    //fill(random(255),random(200),random(200));
+    
+    textFont('GEORGIA');
+    textStyle(ITALIC);
+    text(e, 800,73,500,800);
 
+   */
+    translate(30,-260);
     noFill();
+    stroke(color(225));
+    strokeWeight(2);
+    square(980,500,190);
+    square(970,490,190);
+    square(990,510,190);
+    fill(255);
+    textSize(100);
+    text('J',1035,600);
+    text('V',1105,600);
+    
+    noFill();
+    stroke(color(x1,x2,x3));
     strokeWeight(1);
     curve(400,400, 370,200, 470,245, 100,300) //eyebrow left
     curve(470,85, 372,199, 470,245, 300,300);
@@ -97,13 +168,6 @@ function draw(){
     line(790,400,790,390);//diagonal
     line()
     */
-
-
-      
-
-    
-    
-
     
 
     strokeWeight(1);
@@ -123,4 +187,4 @@ function draw(){
 
  function windowResized(){
     resizeCanvas(windowHeight,windowWidth);
- }
+   }
