@@ -12,6 +12,7 @@
 
 ## *Closeness*
 ## Quibe
+<div align=center>
 @quibe
 ![](https://github.com/jvu11/Vu_Jonathan_ART2210/raw/master/Image/Close_Quibe.jpg)
 
