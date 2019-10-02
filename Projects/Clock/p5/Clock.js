@@ -11,8 +11,8 @@
 
      function setup(){
      createCanvas(windowWidth,windowHeight);
-     ellipseMode(CENTER);
-     rectMode(CENTER);
+     //ellipseMode(CENTER);
+     //rectMode(CENTER);
     
      
      
@@ -24,9 +24,9 @@
 
      image(img,windowWidth/2-345,windowHeight/2-194); 
      
-     background('#BA8D77');
-     fill('#0C1A30');
-     ellipse(280,510,260,260);
+     //background('#BA8D77');
+     //fill('#0C1A30');
+     //ellipse(280,510,260,260);
      
     
      /*let hr = hour();
@@ -157,10 +157,10 @@
           text(o,427,-190,70,80);
           text(w,500,40,200,200);
           translate(-170,280);
-          text(hr +':' + mn + ':' +sc,10,20);*/
+          text(hr +':' + mn + ':' +sc,10,20);
      }
 
-     
+     */
      
 
      
