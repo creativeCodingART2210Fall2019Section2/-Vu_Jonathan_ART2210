@@ -3,7 +3,7 @@
      var img;
 
      function preload(){
-     img = loadImage('https://jvu11.github.io/Vu_Jonathan_ART2210/Projects/Clock/p5/image/coconut.jpg');
+     img = loadImage('https://jvu11.github.io/Vu_Jonathan_ART2210/Projects/Clock/p5/image/coconut.JPG');
      }
 
 
