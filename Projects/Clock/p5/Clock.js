@@ -1,5 +1,5 @@
     
-     var a = 0
+     //var a = 0
      var img;
 
      function preload(){
@@ -22,7 +22,8 @@
     
     
      function draw(){
-     image(img,windowWidth/2,windowHeight/2); 
+
+     image(img,windowWidth/2-345,windowHeight/2-194); 
      
      background('#BA8D77');
      fill('#0C1A30');
