@@ -1,9 +1,9 @@
     
      var a = 0
-     //var img;
+     var img;
 
      function preload(){
-     //img = loadImage('image/coconut.jpg');
+     img = loadImage('https://jvu11.github.io/Vu_Jonathan_ART2210/Image/coconut.jpg');
      }
 
 
