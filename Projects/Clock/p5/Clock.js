@@ -21,6 +21,7 @@
     
     
      function draw(){
+     image(img,0,0); 
      
      background('#BA8D77');
      fill('#0C1A30');
