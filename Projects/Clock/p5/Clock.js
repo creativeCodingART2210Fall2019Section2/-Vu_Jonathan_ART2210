@@ -4,16 +4,14 @@
 
      function preload(){
      //img = loadImage('https://jvu11.github.io/Vu_Jonathan_ART2210/Projects/Clock/p5/image/coconut.JPG');
-     img = loadImage('https://github.com/jvu11/Vu_Jonathan_ART2210/raw/master/Projects/Clock/p5/image/coconut.JPG');
-     //https://github.com/jvu11/Vu_Jonathan_ART2210/raw/master/Image/Her_BTS.jpg
+     //img = loadImage('https://github.com/jvu11/Vu_Jonathan_ART2210/raw/master/Projects/Clock/p5/image/coconut.JPG');
+     img = loadImage('https://github.com/jvu11/Vu_Jonathan_ART2210/raw/master/Image/coconut.JPG');
      
      }
 
 
      function setup(){
      createCanvas(windowWidth,windowHeight);
-     //loadImage('image/coconut.jpg');
-     //img(0,height/2,width/2);
      ellipseMode(CENTER);
      rectMode(CENTER);
     
