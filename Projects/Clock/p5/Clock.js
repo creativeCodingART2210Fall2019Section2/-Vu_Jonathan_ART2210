@@ -3,9 +3,8 @@
      var img;
 
      function preload(){
-     //img = loadImage('https://jvu11.github.io/Vu_Jonathan_ART2210/Projects/Clock/p5/image/coconut.JPG');
-     //img = loadImage('https://github.com/jvu11/Vu_Jonathan_ART2210/raw/master/Projects/Clock/p5/image/coconut.JPG');
-     img = loadImage('https://github.com/jvu11/Vu_Jonathan_ART2210/raw/master/Image/coconut.JPG');
+     
+     img = loadImage("https://github.com/jvu11/Vu_Jonathan_ART2210/raw/master/Image/coconut.JPG");
      
      }
 
