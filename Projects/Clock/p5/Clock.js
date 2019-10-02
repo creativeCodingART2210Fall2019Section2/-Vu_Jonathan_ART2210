@@ -1,18 +1,18 @@
     
-     //var a = 0
-     var img;
+     var a = 0
+     //var img;
 
      function preload(){
-     
-     img = loadImage("https://github.com/jvu11/Vu_Jonathan_ART2210/raw/master/Image/coconut.JPG");
-     
+     //img = loadImage('image/coconut.jpg');
      }
 
 
      function setup(){
      createCanvas(windowWidth,windowHeight);
-     //ellipseMode(CENTER);
-     //rectMode(CENTER);
+     //loadImage('image/coconut.jpg');
+     //img(0,height/2,width/2);
+     ellipseMode(CENTER);
+     rectMode(CENTER);
     
      
      
@@ -21,15 +21,13 @@
     
     
      function draw(){
-
-     image(img,windowWidth/2-345,windowHeight/2-194); 
      
-     //background('#BA8D77');
-     //fill('#0C1A30');
-     //ellipse(280,510,260,260);
+     background('#BA8D77');
+     fill('#0C1A30');
+     ellipse(280,510,260,260);
      
     
-     /*let hr = hour();
+     let hr = hour();
      let mn = minute();
      let sc = second();
 
@@ -139,7 +137,7 @@
      stroke('#0C1A30');
      ellipse(0,0,59,61);
      pop();
-    // arc(0,0,100,100,0,hourAngle);
+     //arc(0,0,100,100,0,hourAngle);
      //arc(0,0,150,150,0,hourAngle);
      
      /////////////////////////////////////////////////
@@ -160,7 +158,7 @@
           text(hr +':' + mn + ':' +sc,10,20);
      }
 
-     */
+     
      
 
      
