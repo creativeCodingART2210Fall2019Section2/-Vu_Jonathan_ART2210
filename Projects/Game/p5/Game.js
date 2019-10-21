@@ -119,7 +119,7 @@ function draw(){
     }
     if (ball.y>550){
         splice(ball);
-        gameover();
+        
 
     }
     
