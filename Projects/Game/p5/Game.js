@@ -119,6 +119,7 @@ function draw(){
     }
     if (ball.y>550){
         splice(ball);
+        gameover();
 
     }
     
@@ -316,7 +317,9 @@ function catchFish(){
     
 function gameover(){
     fill(255);
-    noLoop();
+    textSize(20);
+    text('You lost the fish',width/2,height/2);
+    
 }
 
 function scoreUpdate(){
