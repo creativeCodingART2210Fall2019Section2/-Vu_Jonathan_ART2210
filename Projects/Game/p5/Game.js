@@ -109,7 +109,7 @@ function draw(){
     ball.x+= xballChange;
     ball.y+=yballChange;
     if (ball.x >width){
-        xballChange=-1;
+        xballChange=-3;
     }
     if (ball.x<0){
         xballChange=1;
@@ -147,7 +147,7 @@ function ballBounce(){
     if (ball.x>rectX && ball.x<rectX+rectWidth && (ball.y + (diameter/2) >= rectY)){
         ball.speed=ball.speed*-0.05;
         xballChange *= -1;
-        yballChange += 1;
+        yballChange += -1;
     }
 }  
 
