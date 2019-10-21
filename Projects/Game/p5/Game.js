@@ -44,7 +44,7 @@ var gravity = 0.1;
 var diameter = 24;
 var diameter2 = 15;
 var xballChange=4;
-var yballChange=3;
+var yballChange=4;
 
 function setup(){
     createCanvas(700,550);
@@ -109,7 +109,7 @@ function draw(){
     ball.x+= xballChange;
     ball.y+=yballChange;
     if (ball.x >width){
-        xballChange=-1;
+        xballChange=-3;
     }
     if (ball.x<0){
         xballChange=1;
@@ -119,6 +119,7 @@ function draw(){
     }
     if (ball.y>550){
         splice(ball);
+
     }
     
     if (catX < 0){ // left of window
