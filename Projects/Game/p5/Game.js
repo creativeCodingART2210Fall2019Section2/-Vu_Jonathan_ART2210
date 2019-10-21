@@ -117,6 +117,9 @@ function draw(){
     if (ball.y<0){
         yballChange=-1;
     }
+    if (ball.y>550){
+        splice(ball);
+    }
     
     if (catX < 0){ // left of window
         catX=catX+move 
