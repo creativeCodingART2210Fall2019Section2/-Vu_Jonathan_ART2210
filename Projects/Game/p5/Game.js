@@ -44,7 +44,7 @@ var gravity = 0.1;
 var diameter = 24;
 var diameter2 = 15;
 var xballChange=4;
-var yballChange=3;
+var yballChange=4;
 
 function setup(){
     createCanvas(700,550);
@@ -119,6 +119,7 @@ function draw(){
     }
     if (ball.y>550){
         splice(ball);
+
     }
     
     if (catX < 0){ // left of window
@@ -146,7 +147,7 @@ function ballBounce(){
     if (ball.x>rectX && ball.x<rectX+rectWidth && (ball.y + (diameter/2) >= rectY)){
         ball.speed=ball.speed*-0.05;
         xballChange *= -1;
-        yballChange += -1;
+        yballChange += 1;
     }
 }  
 
