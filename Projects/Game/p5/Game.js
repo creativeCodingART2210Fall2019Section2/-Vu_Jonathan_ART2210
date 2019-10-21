@@ -43,8 +43,8 @@ let ball={
 var gravity = 0.1;
 var diameter = 24;
 var diameter2 = 15;
-var xballChange=4;
-var yballChange=4;
+var xballChange=3;
+var yballChange=3;
 
 function setup(){
     createCanvas(700,550);
@@ -119,6 +119,7 @@ function draw(){
     }
     if (ball.y>550){
         splice(ball);
+        
 
     }
     
@@ -316,7 +317,9 @@ function catchFish(){
     
 function gameover(){
     fill(255);
-    noLoop();
+    textSize(20);
+    text('You lost the fish',width/2,height/2);
+    
 }
 
 function scoreUpdate(){
