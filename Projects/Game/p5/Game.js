@@ -40,7 +40,7 @@ let ball={
     y:30,
     speed:0
 }
-var gravity = 0.1;
+var gravity = 0.13;
 var diameter = 24;
 var diameter2 = 15;
 var xballChange=3;
@@ -71,7 +71,19 @@ function setup(){
 
 function draw(){
     keyPressed();
-    background(bgCol);
+    //background(bgCol);
+    if (ball.y>550){
+        yballChange=0;
+        background(0);
+        textSize(20);
+        text('you lost',260,250);
+        
+        }
+        else{
+            background(100);
+            scoreUpdate();
+            
+        }
     
     
     fill(255);
@@ -90,6 +102,8 @@ function draw(){
 
     calcWave();
     renderWave();
+
+   
     //fishFloat();
     
     
@@ -112,16 +126,12 @@ function draw(){
         xballChange=-3;
     }
     if (ball.x<0){
-        xballChange=1;
+        xballChange=1.5;
     }
     if (ball.y<0){
-        yballChange=-1;
+        yballChange=1.5;
     }
-    if (ball.y>550){
-        splice(ball);
-        
-
-    }
+    
     
     if (catX < 0){ // left of window
         catX=catX+move 
@@ -146,9 +156,10 @@ function moveBall(){
 }
 function ballBounce(){
     if (ball.x>rectX && ball.x<rectX+rectWidth && (ball.y + (diameter/2) >= rectY)){
-        ball.speed=ball.speed*-0.05;
-        xballChange *= -1;
-        yballChange += -1;
+        ball.speed=ball.speed*-0.5;
+        xballChange += .5;
+        yballChange += -1.3;
+        
     }
 }  
 
@@ -193,6 +204,7 @@ function drawCatMouth(){
 function CatBoat(){
     fill(255);
     arc(catX,catY+25+sin(frameCount),180,80,0,3.2);
+    stroke(225);
     line(catX-50,catY+21,catX-50+sin(frameCount),catY-90);
     line(catX+50,catY+24,catX+50+sin(frameCount),catY-90);
     
@@ -323,11 +335,13 @@ function gameover(){
 }
 
 function scoreUpdate(){
-    score+=5;
+    score+=3;
     let s = text('SCORE');
     textSize(20);
     fill(255);
-    text('SCORE: ' , width/2-110, 35);
+    text("SCORE: "+int(score/timePeriod), 250, 35);
+    
+
 }
 
 function isMouseInside(x,y,w,h){
