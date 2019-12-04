@@ -1,8 +1,4 @@
-var lat = 0;
-var lon = 0;
-var clat = 0;
-var clon = 0;
-var zoom = 1;
+
 var mapimage;
 
 
