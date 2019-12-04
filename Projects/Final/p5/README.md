@@ -1,6 +1,6 @@
 <div align=center>
 
-[MAP](https://github.com/jvu11/Vu_Jonathan_ART2210/blob/master/Projects/Final/p5/Final.html)
+[MAP](https://jvu11.github.io/Vu_Jonathan_ART2210/Projects/Final/Final.html)
 
 
 
