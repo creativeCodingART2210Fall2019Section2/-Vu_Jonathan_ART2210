@@ -1,0 +1,12 @@
+{
+     "Flights":[
+     {
+        "name":"LAX#5416",
+        "departure":["6:50AM"],
+        "arrival":["8:20AM"],
+        "citylat":["37.7749"],
+        "citylon":["122.4194"]
+        
+     }
+    ]
+} 
