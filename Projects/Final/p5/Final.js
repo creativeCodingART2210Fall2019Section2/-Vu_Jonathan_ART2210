@@ -284,9 +284,7 @@ function MDWtoPDX(){
 function MDWtoDAL(){
     fill(225);
     ellipse(515,430,10,10);
-    x13 = x13+1;
-    y13 = y13 -1;
-    if (y13 <430){
-        y13=230
-    }
+    //x13 = x13+1;
+    //y13 = y13 -1;
+   
 }
